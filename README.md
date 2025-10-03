@@ -18,7 +18,7 @@ This project follows the [Medallion Architecture](https://dataengineering.wiki/C
 
 2. **Silver Layer**: Creation of cleaned and normalized tables. Prepares standardized data for analysis.
 
-3. **Gold Layer**: Creation of views that refine data for business/analytics requirments, including data aggregation and enrichment.
+3. **Gold Layer**: Creation of views that combine and aggregate data for business/analytics requirments.
 
 The 
 
