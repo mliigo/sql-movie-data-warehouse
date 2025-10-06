@@ -2,7 +2,7 @@
 BRONZE LAYER: CREATING DATABASE AND RAW TABLES
 *******************************************************************************
 Author:			Igor Mlikota
-Date:			...
+Date:			03.Oct.2025
 MySQL Version:	8.4.6
 *******************************************************************************
 This script creates the 'tmdb_movies' database with two tables 'raw_credits'
