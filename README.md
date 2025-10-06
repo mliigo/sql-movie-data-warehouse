@@ -22,8 +22,32 @@ This project follows the [Medallion Architecture](https://dataengineering.wiki/C
 
 ![Data Architecture](docs/data_flow_diagram.png)
 
+The silver layer contains a total of twenty cleaned and normalized tables:
+
+![Silver Layer ERD](docs/entity_relation_diagram.png)
+
 
 ## 📂 Repository Structure
-
-abc
+```
+sql-movie-data-warehouse/
+│
+├── datasets/                           # Raw CSV files containing data used for the project
+│   ├── tmdb_5000_credits.csv           # CSV file with movie cast and crew data
+│   └── tmdb_5000_movies.csv            # CSV file with movie metadata
+│
+├── docs/                               # Project documentation and support files
+│   ├── data_flow_diagram.html          # HTML file of diagram showing data flow through architecture layers
+│   ├── data_flow_diagram.png           # PNG file of diagram showing data flow through architecture layers
+│   ├── entity_relation_diagram.html    # HTML file of diagram showing network of silver layer tables
+│   └── entity_relation_diagram.html    # PNG file of diagram showing network of silver layer tables
+│
+├── scripts/                            # SQL scripts for creating the data warehouse
+│   ├── bronze_create_database.sql      # Script for creating database and reading raw CSV files
+│   ├── silver_1_create_tables.sql      # Script for creating/extracting tables from raw data
+│   ├── silver_2_clean_tables.sql       # Script for cleaning and normalizing tables
+│   ├── silver_3_create_keys.sql        # Script for declaring primary and foreign keys
+│   └── gold_create_views.sql           # Script for creating views based on clean tables
+│
+└── README.md                           # Project summary and instructions
+```
 
