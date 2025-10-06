@@ -2,13 +2,18 @@
 
 Welcome to my movie data warehouse project! 👋
 
-This project builds a movie data warehouse using MySQL based on data from The Movie Database (TMDb).
-
 ---
 
 ## 📖 Project Overview
 
-abc
+This project builds a data warehouse in MySQL using a dataset of approximately 5000 movies sourced from [The Movie Database (TMDb) API](https://developer.themoviedb.org/docs/getting-started) and made available on [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data?select=tmdb_5000_movies.csv). The raw data is provided in two CSV files:
+* **tmdb_5000_credits.csv**:  information on cast and crew members for each movie (e.g. names, departments, jobs)
+* **tmdb_5000_movies.csv**:   metadata of each movie (e.g. release date, runtime, genre, budget, revenue, rating)
+
+Several columns in these files contain nested JSON-like lists, which are parsed and transformed into normalized SQL tables. The project focuses on cleaning and restructuring this semi-structured data to ensure consistency, eliminate redundancy, and enforce relational integrity.
+
+Once the core tables are established and cleaned, a series of SQL views are created to combine and aggregate information across entities. These views provide high-level summaries and insights, such as statistics by actor, director, production company, language, and country, as well as yearly breakdowns of movie trends including top genres, financial performance, and audience ratings.
+
 
 ## 🏗️ Data Architecture
 
