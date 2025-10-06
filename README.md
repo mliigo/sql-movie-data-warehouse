@@ -20,7 +20,7 @@ This project follows the [Medallion Architecture](https://dataengineering.wiki/C
 
 3. **Gold Layer**: Creation of views that combine and aggregate data for business/analytics requirments.
 
-The 
+![Data Architecture](docs/data_flow_diagram.png)
 
 
 ## 📂 Repository Structure
