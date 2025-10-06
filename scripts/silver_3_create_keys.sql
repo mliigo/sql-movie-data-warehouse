@@ -2,7 +2,7 @@
 SILVER LAYER (3): CREATING KEYS IN CLEANED TABLES
 *******************************************************************************
 Author:			Igor Mlikota
-Date:			...
+Date:			03.Oct.2025
 MySQL Version:	8.4.6
 *******************************************************************************
 This script creates all the primary and foreign keys in the cleaned tables in 
