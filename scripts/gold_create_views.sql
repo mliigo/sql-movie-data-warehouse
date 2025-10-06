@@ -2,7 +2,7 @@
 GOLD LAYER: CREATING VIEWS
 *******************************************************************************
 Author:			Igor Mlikota
-Date:			...
+Date:			03.Oct.2025
 MySQL Version:	8.4.6
 *******************************************************************************
 This script creates analytical views based on the cleaned tables from the silver
