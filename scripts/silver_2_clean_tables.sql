@@ -2,7 +2,7 @@
 SILVER LAYER (2): CLEANING TABLES
 *******************************************************************************
 Author:			Igor Mlikota
-Date:			...
+Date:			03.Oct.2025
 MySQL Version:	8.4.6
 *******************************************************************************
 This script cleans and normalizes the tables in the silver layer, which were 
